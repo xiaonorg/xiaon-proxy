@@ -1,0 +1,13 @@
+{
+  "name": "xiaoyun-proxy",
+  "version": "1.0.0",
+  "description": "小云工作室的代理服务器",
+  "scripts": {
+    "http": "node src/HttpServer.js",
+    "proxy": "node src/HttpProxy.js"
+  },
+  "author": "小云",
+  "devDependencies": {
+    "http-proxy": "^1.16.2"
+  }
+}
